@@ -4,12 +4,17 @@
       "id": "agents",
       "args": {
         "gpu": true,
-        "image": "docker.io/yourusername/agent-challenge:latest",
+        "image": "docker.io/pinnoche/agent-challenge:latest",
         "expose": [
           {
             "port": 8080
           }
         ],
+        "cmd": [
+          "-c",
+          "ollama serve & sleep 5 && ollama pull $MODEL_NAME_AT_ENDPOINT && pnpm run dev"
+        ],
+        
         "entrypoint": [
           "/bin/sh"
         ]
