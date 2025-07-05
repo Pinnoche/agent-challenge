@@ -106,3 +106,13 @@ curl -X POST https://<your-url>/api/agent/cryptoAgent \
 - This agent uses Ollama LLM (qwen2.5:1.5b).
 - Mastra Playground should be accessible at http://localhost:8080 during local dev.
 - On production builds or headless runs, only the API is exposed (no UI).
+
+==========================================
+📌 LINKS
+==========================================
+
+Video Link: https://youtu.be/2yxo9pFAfUc
+
+Docker Hub Link: https://hub.docker.com/r/pinnoche/agent-challenge
+
+Twitter (X) Link: https://x.com/Dmj_wise/status/1941600313271525868
